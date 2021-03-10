@@ -286,6 +286,15 @@ a {
   text-decoration: none;
 }
 
+.nolink {
+  text-decoration: none !important;
+  border: 0px !important;
+  outline: none;
+  border-width: 0px;
+  outline-width: 0px;
+  border-bottom: none;
+}
+
 a:hover {
   border-bottom-color: transparent;
   color: #ffffff !important;
