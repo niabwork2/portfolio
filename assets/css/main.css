@@ -284,9 +284,6 @@ a {
   border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
   color: #ffffff;
   text-decoration: none;
-}
-
-.nolink {
   text-decoration: none !important;
   border: 0px !important;
   outline: none;
