@@ -1,16 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
-/*
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-:root {
-  --blue: #1e90ff;
-  --white: #ffffff;
-}
-
 html,
 body,
 div,
@@ -192,11 +182,11 @@ html {
 }
 
 body {
-  background-color: #2e3141;
+  background-color: #212121;
   background-image: linear-gradient(
       to top,
-      rgba(46, 49, 65, 0.8),
-      rgba(46, 49, 65, 0.8)
+      rgba(24, 24, 24, 0.8),
+      rgba(36, 36, 36, 0.8)
     ),
     url("../../images/bg.jpg");
   background-size: auto, cover;
@@ -2346,7 +2336,7 @@ select {
 
 select option {
   color: #ffffff;
-  background: #2e3141;
+  background: #212121;
 }
 
 select:focus::-ms-value {
@@ -2434,12 +2424,12 @@ input[type="radio"]:checked + label:before {
   background: #ffffff;
   border-color: #ffffff;
   content: "\f00c";
-  color: #2e3141;
+  color: #212121;
 }
 
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  border-color: #4c5c96;
+  border-color: #474747;
 }
 
 input[type="checkbox"] + label:before {
@@ -2868,7 +2858,7 @@ ul.pagination li > .page:hover {
 }
 
 ul.pagination li > .page.active {
-  background-color: #4c5c96;
+  background-color: #474747;
 }
 
 ul.pagination li:first-child {
@@ -3034,7 +3024,7 @@ input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
-  background-color: #4c5c96;
+  background-color: #474747;
   box-shadow: none;
 }
 
@@ -3125,7 +3115,7 @@ button:disabled,
 
 .features article {
   padding: 1.75em 1.75em 0.1em 1.75em;
-  background-color: #353849;
+  background-color: #2c2c2c;
   border-radius: 5px;
   margin: 1.5em 3em 1.5em 0;
   width: calc(50% - 1.5em);
@@ -3190,7 +3180,7 @@ button:disabled,
   -webkit-transition: background-color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
-  background-color: rgba(53, 56, 73, 0.95);
+  background-color: rgba(22, 22, 22, 0.95);
   height: 3.5em;
   left: 0;
   line-height: 3.5em;
@@ -3369,7 +3359,7 @@ button:disabled,
   -ms-user-select: none;
   user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background: rgba(46, 49, 65, 0.8);
+  background: rgba(15, 15, 15, 0.8);
   cursor: default;
   height: 100%;
   left: 0;
@@ -3392,7 +3382,7 @@ button:disabled,
   -ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
   transition: opacity 0.35s ease, transform 0.35s ease;
   -webkit-overflow-scrolling: touch;
-  background: #586c8f;
+  background: #000000;
   border-radius: 5px;
   display: block;
   max-width: 100%;
@@ -3448,7 +3438,7 @@ button:disabled,
 }
 
 #menu .links li a:hover {
-  background: #45558d;
+  background: #2c2c2c;
 }
 
 @media screen and (max-width: 736px) {
@@ -3579,11 +3569,11 @@ body.is-menu-visible #menu .inner {
 @media screen and (max-width: 1280px) {
   #banner {
     padding: 7em 0 8.25em 0;
-    background-color: #2e3141;
+    background-color: #212121;
     background-image: linear-gradient(
         to top,
-        rgba(46, 49, 65, 0.8),
-        rgba(46, 49, 65, 0.8)
+        rgba(24, 24, 24, 0.8),
+        rgba(36, 36, 36, 0.8)
       ),
       url("../../images/bg.jpg");
     background-size: auto, cover;
@@ -3688,11 +3678,11 @@ body.is-preload #banner p {
 @media screen and (max-width: 1280px) {
   #wrapper > header {
     padding: 9em 0 6.25em 0;
-    background-color: #2e3141;
+    background-color: #212121;
     background-image: linear-gradient(
         to top,
-        rgba(46, 49, 65, 0.8),
-        rgba(46, 49, 65, 0.8)
+        rgba(24, 24, 24, 0.8),
+        rgba(36, 36, 36, 0.8)
       ),
       url("../../images/bg.jpg");
     background-size: auto, cover;
@@ -3731,22 +3721,22 @@ body.is-preload #banner p {
 }
 
 .wrapper {
-  background-color: #2e3141;
+  background-color: #212121;
   margin: 6.5em 0;
   position: relative;
 }
 
 .wrapper:before,
 .wrapper:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23212121%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper:before {
-  box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+  box-shadow: inset 0 -1px 0 0 #212121, 0 1px 0 0 #212121;
 }
 
 .wrapper:after {
-  box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+  box-shadow: inset 0 -1px 0 0 #212121, 0 1px 0 0 #212121;
 }
 
 .wrapper:before,
@@ -3800,7 +3790,7 @@ body.is-preload #banner p {
 
 .wrapper.style2:before,
 .wrapper.style2:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23353849%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23474747%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper.style2:before {
@@ -3817,7 +3807,7 @@ body.is-preload #banner p {
 
 .wrapper.style3:before,
 .wrapper.style3:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233d4051%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23474747%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper.style3:before {
@@ -3834,7 +3824,7 @@ body.is-preload #banner p {
 
 .wrapper.style4:before,
 .wrapper.style4:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23454858%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%235e5e5e%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper.style4:before {
@@ -3851,7 +3841,7 @@ body.is-preload #banner p {
 
 .wrapper.style5:before,
 .wrapper.style5:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234d5060%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%235e5e5e%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper.style5:before {
@@ -3863,37 +3853,37 @@ body.is-preload #banner p {
 }
 
 .wrapper.style6 {
-  background-color: #555867;
+  background-color: #212121;
 }
 
 .wrapper.style6:before,
 .wrapper.style6:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23555867%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23212121%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper.style6:before {
-  box-shadow: inset 0 -1px 0 0 #555867, 0 1px 0 0 #555867;
+  box-shadow: inset 0 -1px 0 0 #212121, 0 1px 0 0 #212121;
 }
 
 .wrapper.style6:after {
-  box-shadow: inset 0 -1px 0 0 #555867, 0 1px 0 0 #555867;
+  box-shadow: inset 0 -1px 0 0 #212121, 0 1px 0 0 #212121;
 }
 
 .wrapper.spotlight {
-  background-color: lightslategray;
+  background-color: #303030;
 }
 
 .wrapper.spotlight:before,
 .wrapper.spotlight:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:lightslategray' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23303030%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper.spotlight:before {
-  box-shadow: inset 0 -1px 0 0 lightslategray, 0 1px 0 0 lightslategray;
+  box-shadow: inset 0 -1px 0 0 #303030, 0 1px 0 0 #303030;
 }
 
 .wrapper.spotlight:after {
-  box-shadow: inset 0 -1px 0 0 lightslategray, 0 1px 0 0 lightslategray;
+  box-shadow: inset 0 -1px 0 0 #303030, 0 1px 0 0 #303030;
 }
 
 .wrapper.spotlight .inner {
@@ -3942,88 +3932,88 @@ body.is-preload #banner p {
 }
 
 .wrapper.spotlight.style2 {
-  background-color: slategray;
+  background-color: #282828;
 }
 
 .wrapper.spotlight.style2:before,
 .wrapper.spotlight.style2:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:slategray' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23282828%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper.spotlight.style2:before {
-  box-shadow: inset 0 -1px 0 slategray, 0 1px 0 0 slategray;
+  box-shadow: inset 0 -1px 0 #282828, 0 1px 0 0 #282828;
 }
 
 .wrapper.spotlight.style2:after {
-  box-shadow: inset 0 -1px 0 0 slategray, 0 1px 0 0 slategray;
+  box-shadow: inset 0 -1px 0 0 #282828, 0 1px 0 0 #282828;
 }
 
 .wrapper.spotlight.style3 {
-  background-color: DarkGrey;
+  background-color: #242424;
 }
 
 .wrapper.spotlight.style3:before,
 .wrapper.spotlight.style3:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:DarkGrey' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23242424%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper.spotlight.style3:before {
-  box-shadow: inset 0 -1px 0 0 DarkGrey, 0 1px 0 0 DarkGrey;
+  box-shadow: inset 0 -1px 0 0 #242424, 0 1px 0 0 #242424;
 }
 
 .wrapper.spotlight.style3:after {
-  box-shadow: inset 0 -1px 0 0 DarkGrey, 0 1px 0 0 DarkGrey;
+  box-shadow: inset 0 -1px 0 0 #242424, 0 1px 0 0 #242424;
 }
 
 .wrapper.spotlight.style4 {
-  background-color: #39477c;
+  background-color: #3b3b3b;
 }
 
 .wrapper.spotlight.style4:before,
 .wrapper.spotlight.style4:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2339477c%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:dimgray' /%3E%3C/svg%3E");
 }
 
 .wrapper.spotlight.style4:before {
-  box-shadow: inset 0 -1px 0 0 #39477c, 0 1px 0 0 #39477c;
+  box-shadow: inset 0 -1px 0 0 #3b3b3b, 0 1px 0 0 #3b3b3b;
 }
 
 .wrapper.spotlight.style4:after {
-  box-shadow: inset 0 -1px 0 0 #39477c, 0 1px 0 0 #39477c;
+  box-shadow: inset 0 -1px 0 0 #3b3b3b, 0 1px 0 0 #3b3b3b;
 }
 
 .wrapper.spotlight.style5 {
-  background-color: #324072;
+  background-color: #3b3b3b;
 }
 
 .wrapper.spotlight.style5:before,
 .wrapper.spotlight.style5:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23324072%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:dimgray' /%3E%3C/svg%3E");
 }
 
 .wrapper.spotlight.style5:before {
-  box-shadow: inset 0 -1px 0 0 #324072, 0 1px 0 0 #324072;
+  box-shadow: inset 0 -1px 0 0 #3b3b3b, 0 1px 0 0 #3b3b3b;
 }
 
 .wrapper.spotlight.style5:after {
-  box-shadow: inset 0 -1px 0 0 #324072, 0 1px 0 0 #324072;
+  box-shadow: inset 0 -1px 0 0 #3b3b3b, 0 1px 0 0 #3b3b3b;
 }
 
 .wrapper.spotlight.style6 {
-  background-color: #2d3a69;
+  background-color: #3b3b3b;
 }
 
 .wrapper.spotlight.style6:before,
 .wrapper.spotlight.style6:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232d3a69%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23212121%3B' /%3E%3C/svg%3E");
 }
 
 .wrapper.spotlight.style6:before {
-  box-shadow: inset 0 -1px 0 0 #2d3a69, 0 1px 0 0 #2d3a69;
+  box-shadow: inset 0 -1px 0 0 #3b3b3b, 0 1px 0 0 #3b3b3b;
 }
 
 .wrapper.spotlight.style6:after {
-  box-shadow: inset 0 -1px 0 0 #2d3a69, 0 1px 0 0 #2d3a69;
+  box-shadow: inset 0 -1px 0 0 #3b3b3b, 0 1px 0 0 #3b3b3b;
 }
 
 @media screen and (max-width: 980px) {
@@ -4182,11 +4172,11 @@ body.is-preload #banner p {
 
 @media screen and (max-width: 1280px) {
   #footer {
-    background-color: #2e3141;
+    background-color: #212121;
     background-image: linear-gradient(
         to top,
-        rgba(46, 49, 65, 0.8),
-        rgba(46, 49, 65, 0.8)
+        rgba(24, 24, 24, 0.8),
+        rgba(36, 36, 36, 0.8)
       ),
       url("../../images/bg.jpg");
     background-size: auto, cover;
